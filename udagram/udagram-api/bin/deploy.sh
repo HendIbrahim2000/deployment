@@ -1,15 +1,15 @@
 cd www
 eb list
 eb use udagram-api3-dev
-# eb setenv POSTGRES_HOST=database-1.ce171edbghly.us-east-1.rds.amazonaws.com
-# eb setenv POSTGRES_USERNAME=postgres
-# eb setenv POSTGRES_DB=postgress
-# eb setenv POSTGRES_PASSWORD=password123
-# eb setenv AWS_REGION=us-east-1
-# eb setenv AWS_PROFILE=default 
-# eb setenv AWS_BUCKET=my-653597783644-bucket
-# eb setenv URL=http://my-653597783644-bucket.s3-website-us-east-1.amazonaws.com/
-# eb setenv JWT_SECRET=anyJWT
-# eb setenv AWS_ACCESS_KEY_ID=AKIAZQLLWWZOFNJYAXP2
-# eb setenv AWS_SECRET_ACCESS_KEY=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
+eb setenv POSTGRES_HOST=$POSTGRES_HOST
+eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
+eb setenv POSTGRES_DB=$POSTGRES_DB
+eb setenv POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+eb setenv AWS_REGION=$AWS_REGION
+eb setenv AWS_PROFILE=$AWS_PROFILE
+eb setenv AWS_BUCKET=$AWS_BUCKET
+eb setenv URL=$URL
+eb setenv JWT_SECRET=$JWT_SECRET
+eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+eb setenv AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 eb deploy udagram-api3-dev --profile default
