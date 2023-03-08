@@ -12,4 +12,4 @@ eb use udagram-api3-dev
 # eb setenv JWT_SECRET=anyJWT
 # eb setenv AWS_ACCESS_KEY_ID=AKIAZQLLWWZOFNJYAXP2
 # eb setenv AWS_SECRET_ACCESS_KEY=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
-eb deploy udagram-api2-dev --profile default
+eb deploy udagram-api3-dev --profile default
