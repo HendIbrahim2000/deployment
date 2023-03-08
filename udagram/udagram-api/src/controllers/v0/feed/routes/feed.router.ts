@@ -58,6 +58,8 @@ router.get('/signed-url/:fileName',
 router.post('/',
     requireAuth,
     async (req: Request, res: Response) => {
+      console.log("authorized ... ");
+      
       const caption = req.body.caption;
       const fileName = req.body.url; // same as S3 key name
 
