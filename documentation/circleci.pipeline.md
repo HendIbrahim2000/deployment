@@ -14,9 +14,9 @@ When a new commit has been pushed to the main branch of the repository,That's tr
 
 
 - screenshot of the CricleCi build last state
-![circleci success](../screenshots/circleci%20success.PNG)
+![circleci success](./images/circleci.PNG)
 
 
 - All the secrets found in the application are configured inside CircleCi and passed to the application in EB.
 
-![circleci secrets](../screenshots/circleci%20configration%20(secrets).PNG)
+![circleci secrets](./images/circle-env.PNG)

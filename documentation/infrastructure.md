@@ -8,17 +8,17 @@
 
 #### AWS Relational Database Service (RDS):
 
-![rds](../screenshots/rds.PNG)
+![rds](./images/rds.PNG)
 
 #### AWS Elastic Beanstalk (EB):image.png
 
 - EB health: OK
 
-  ![eb health](../screenshots/eb%20health.PNG)
+  ![eb health](./images/eb-health.PNG)
 
 
 #### AWS Simple Storage Service (S3):
 
 - S3 bucket:
 
-  ![s3](../screenshots/s3.PNG)
+  ![s3](./images/s3.PNG)
