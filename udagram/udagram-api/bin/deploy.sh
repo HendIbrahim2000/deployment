@@ -8,7 +8,7 @@ if [[ ! -v POSTGRES_HOST ]]; then
         eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
         eb setenv POSTGRES_DB=$POSTGRES_DB
         eb setenv POSTGRES_PASSWORD=$POSTGRES_PASSWORD
-        eb setenv AWS_REGION=$AWS_REGION
+        eb setenv AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION
         eb setenv AWS_PROFILE=$AWS_PROFILE
         eb setenv AWS_BUCKET=$AWS_BUCKET
         eb setenv URL=$URL
