@@ -18,4 +18,5 @@ When a new commit has been pushed to the main branch of the repository,That's tr
 
 
 - All the secrets found in the application are configured inside CircleCi and passed to the application in EB.
+
 ![circleci secrets](../screenshots/circleci%20configration%20(secrets).PNG)
